@@ -4,9 +4,9 @@
 		"url_png_logo": "https://wavespool.io/cover-min.png",
 		"location": "Decentralized , Headquarters",
 		"social": {
-			"twitter_handle": "WavesPoolOP"
-      "telegram_handle": "WavesPoolOP"
-      "github_handle": "WavesPoolOP"
+			"twitter_handle": "WavesPoolOP",
+      			"telegram_handle": "WavesPoolOP",
+     			 "github_handle": "WavesPoolOP",
 		},
 		"about": {
 			"me": "Cardano blockchain enthusiast, one for all & all for one.",

@@ -1,0 +1,19 @@
+{
+	"info": {
+		"url_png_icon_64x64": "https://wavespool.io/mainlogo.png",
+		"url_png_logo": "https://wavespool.io/cover-min.png",
+		"location": "Decentralized , Headquarters",
+		"social": {
+			"twitter_handle": "WavesPoolOP"
+      "telegram_handle": "WavesPoolOP"
+      "github_handle": "WavesPoolOP"
+		},
+		"about": {
+			"me": "Cardano blockchain enthusiast, one for all & all for one.",
+			"server": "Hosted with a Failproof, Multi-Core,High Speed RAM, 250gb NVMe SSD storage server! From speeds above and beyond 100MB up/down, always online 24 Hours A day 7 Days a week 56 Weeks a year. %0 margin till April"
+		}
+	},
+	"my-pool-ids": {
+		"0": "7cf8850b077af4b16abd7006f8e9564c2fa23259d184aeeba108ae27"
+	}
+}

@@ -43,6 +43,7 @@ window.addEventListener("resize", function () {
 function rand(a, b) {
   return Math.random() * (b - a + 1) + a;
 }
+
 var stars = [];
 
 Stars = function (x, y, radius, speed) {
@@ -50,8 +51,8 @@ Stars = function (x, y, radius, speed) {
   this.y = y;
   this.speed = speed / 25;
   this.radius = radius;
-  this.saturation = 95 + this.radius * 5;
-  this.lightness = 20 + this.radius * 4;
+  this.saturation = 0 + this.radius * 20;
+  this.lightness = 100 + this.radius * 20;
 };
 
 Stars.prototype = {
@@ -100,9 +101,9 @@ renderStars = function (a) {
 makingStar = function () {
   stars = [];
   var base = 0.75;
-  var inc = 0.2;
-  var count = 40;
-  var per = 6;
+  var inc = 0.1;
+  var count = 20;
+  var per = 5;
   while (count--) {
     var radius = base + inc;
     var perTime = per;
@@ -113,7 +114,7 @@ makingStar = function () {
           rand(0, window.innerWidth - radius),
           rand(0, window.innerHeight - radius),
           radius,
-          radius * 3
+          radius * 10
         )
       );
     }

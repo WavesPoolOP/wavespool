@@ -15,5 +15,29 @@
 	},
 	"my-pool-ids": {
 		"0": "7cf8850b077af4b16abd7006f8e9564c2fa23259d184aeeba108ae27"
-	}
+	},
+	"adapools_ext": {
+        "prometheus": {
+            "0": {
+                "name": "ams-relay",
+                "type": "relay",
+                "key": "15cf5d20da6257708998a28924fc5da7"
+            },
+            "1": {
+                "name": "lon1-relay",
+                "type": "relay",
+                "key": "6e7d1cca82a9c59b5c8755cece656773"
+            },
+            "2": {
+                "name": "lon2-relay",
+                "type": "relay",
+                "key": "565c53d5f92361cf073f4e34acb3a1cd"
+            },
+            "3": {
+                "name": "lon3-relay",
+                "type": "relay",
+                "key": "3bd22b39277ffe3da7b105f44f1d5995"
+            }
+        }
+    }
 }
